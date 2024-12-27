@@ -1,5 +1,9 @@
 from flask import Flask, request
 from binance.client import Client
+import requests
+
+response = requests.get('https://api64.ipify.org?format=json')
+print("Server Public IP:", response.json()['ip'])
 
 app = Flask(__name__)
 
