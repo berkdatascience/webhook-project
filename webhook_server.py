@@ -8,8 +8,8 @@ print("Server Public IP:", response.json()['ip'])
 app = Flask(__name__)
 
 # Binance API Bilgileri
-api_key = "M8zGOyMpK2iZwl5BmUILMM4S5PsMU7X1NS29ZYncwqAAQJBaplzBtuayW1HqXoWl"
-api_secret = "4pmgNDROYxeKHC1V1yvJU36X1AK2cJdpDx4OuurZNpx0DicaSAaoqMiRymhI5rqH"
+api_key = ""
+api_secret = ""
 client = Client(api_key, api_secret)
 
 # İşlem Yapılacak Coin ve İlk İşlem İçin Kullanılacak USDT
